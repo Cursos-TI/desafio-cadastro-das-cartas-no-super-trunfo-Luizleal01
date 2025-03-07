@@ -23,6 +23,32 @@ int main() {
     scanf("%f", &area_km2);
     printf("Pib: %.3f\n", Pib);
     scanf("%f", &Pib);
+    printf("\n");
+
+    
+    char Carta02[4] = "B02";
+    char Estado2[20] = "Bahia";
+    char Cidade2[20] = "Salvador";
+    int Populacao2 = 2418000;
+    int Pontos_turisticos2 = 58;
+    float area_km22 = 693.80;
+    float Pib2 = 62.953;
+
+    printf("Carta02: %s\n", Carta02);
+    scanf("%s", Carta02);
+    printf("Estado2: %s\n", Estado2);
+    scanf("%s", Estado2);
+    printf("Cidade2: %s\n", Cidade2);
+    scanf("%s", Cidade2);
+    printf("Populacao2: %d\n", Populacao2);
+    scanf("%d", &Populacao2);
+    printf("Pontos turísticos2: %d\n", Pontos_turisticos2);
+    scanf("%d", &Pontos_turisticos2);
+    printf("Área em km²2: %.3f\n", area_km22);
+    scanf("%f", &area_km22);
+    printf("Pib: %.3f\n", Pib2);
+    scanf("%f", &Pib2);
+    
 
     return 0;
 }
